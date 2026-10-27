@@ -488,6 +488,17 @@ export async function getProgramme(): Promise<Programme> {
   return mock(() => db().programme);
 }
 
+export async function applyForTransfer(input: { programme: string; reason: string }): Promise<{ reference: string }> {
+  if (LIVE) return http("POST", "/programme/transfer", input);
+  await wait(1100);
+  const d = db();
+  const feePaid = d.fees.some((f) => f.id.startsWith("fee_cop") && f.status === "paid");
+  if (!feePaid) throw new ApiError("Pay the ₦10,000.00 programme transfer fee (Fees → Standalone) before applying.");
+  if (!input.programme) throw new ApiError("Choose the programme you want to transfer to.");
+  if (input.reason.trim().length < 20) throw new ApiError("Tell us briefly why you want to transfer (at least 20 characters).");
+  return { reference: `PT-${new Date().getFullYear()}-${1000 + rand(9000)}` };
+}
+
 export async function getElearning(): Promise<Elearning> {
   if (LIVE) return http("GET", "/elearning");
   return mock(() => {
