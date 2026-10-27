@@ -34,7 +34,8 @@ export function LoginForm() {
     setLoading(true);
     try {
       const { redirect } = await login({ username, password, applicant });
-      router.replace(redirect);
+      const next = new URLSearchParams(window.location.search).get("next");
+      router.replace(next && next.startsWith("/") && !next.startsWith("//") ? next : redirect);
     } catch (err) {
       setError(errorMessage(err));
       setLoading(false);
