@@ -211,6 +211,20 @@ export async function getInvoices(params?: { session?: SessionId; status?: Invoi
   );
 }
 
+export async function getFee(params: { feeId?: string; invoiceId?: string }): Promise<{ fee: Fee; invoice: Invoice | null }> {
+  if (LIVE) {
+    return params.invoiceId ? http("GET", `/invoices/${params.invoiceId}/fee`) : http("GET", `/fees/${params.feeId}`);
+  }
+  return mock(() => {
+    const d = db();
+    const inv = params.invoiceId ? d.invoices.find((i) => i.id === params.invoiceId) : undefined;
+    const fee = d.fees.find((f) => f.id === (inv?.feeId ?? params.feeId));
+    if (!fee) throw new ApiError("Fee record not found.", 404);
+    const invoice = inv ?? d.invoices.find((i) => i.id === fee.invoiceId) ?? d.invoices.find((i) => i.feeId === fee.id) ?? null;
+    return { fee, invoice: invoice ? stripMock(invoice) : null };
+  }, 200);
+}
+
 function stripMock(i: MockInvoice): Invoice {
   const { verifyOutcome: _ignored, ...rest } = i;
   return rest;
