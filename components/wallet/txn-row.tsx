@@ -30,16 +30,24 @@ export function TxnAmount({ t, className }: { t: WalletTransaction; className?: 
 /** Compact, readable row used on the dashboard and as the mobile card on the wallet page. */
 export function TxnRow({ t, showRef }: { t: WalletTransaction; showRef?: boolean }) {
   return (
-    <div className="flex items-center gap-3 py-3">
+    <div className="flex items-start gap-3 py-3">
       <TxnIcon type={t.type} />
       <div className="min-w-0 flex-1">
-        <p className="truncate text-[15px] font-medium text-ink">{t.description}</p>
-        <p className="truncate text-sm text-muted">
-          {formatDate(t.date)}
-          {showRef ? ` · ${t.reference}` : ` · ${t.category}`}
-        </p>
+        <div className="flex items-start justify-between gap-3">
+          <p className="min-w-0 text-[15px] font-medium leading-snug text-ink">{t.description}</p>
+          <TxnAmount t={t} className="pt-px text-[15px]" />
+        </div>
+        {showRef ? (
+          <>
+            <p className="mt-0.5 truncate text-sm text-muted">{t.category}</p>
+            <p className="truncate font-mono text-xs text-subtle">{t.reference}</p>
+          </>
+        ) : (
+          <p className="mt-0.5 truncate text-sm text-muted">
+            {formatDate(t.date)} · {t.category}
+          </p>
+        )}
       </div>
-      <TxnAmount t={t} className="text-[15px]" />
     </div>
   );
 }
