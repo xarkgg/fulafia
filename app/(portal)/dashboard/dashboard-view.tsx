@@ -63,7 +63,7 @@ export function DashboardView() {
           <TriangleAlert className="size-5 shrink-0 text-warning" aria-hidden />
           <p className="flex-1 text-[15px] text-ink">
             <strong className="font-semibold">Your {term.session} {term.semester} Semester school fee is outstanding.</strong>{" "}
-            <span className="text-muted">Pay {formatNaira(payment.outstanding)} to unlock course registration.</span>
+            <span className="text-muted">Pay {formatNaira(payment.outstanding)} to submit your course registration.</span>
           </p>
           <ButtonLink href="/fees" variant="primary" size="sm" className="self-start sm:self-auto">
             Pay now <ArrowRight className="size-4" />
