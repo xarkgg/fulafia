@@ -1,0 +1,226 @@
+[
+  {
+    "session": "2024/2025",
+    "semester": "First",
+    "level": 100,
+    "publishedAt": "2025-03-14",
+    "courses": [
+      {
+        "code": "CSC 101",
+        "title": "Introduction to Computer Science",
+        "units": 3,
+        "score": 71
+      },
+      {
+        "code": "MTH 101",
+        "title": "Elementary Mathematics I",
+        "units": 3,
+        "score": 64
+      },
+      {
+        "code": "PHY 101",
+        "title": "General Physics I",
+        "units": 3,
+        "score": 58
+      },
+      {
+        "code": "PHY 107",
+        "title": "General Physics Practical I",
+        "units": 1,
+        "score": 70
+      },
+      {
+        "code": "CHM 101",
+        "title": "General Chemistry I",
+        "units": 3,
+        "score": 55
+      },
+      {
+        "code": "STA 111",
+        "title": "Descriptive Statistics",
+        "units": 3,
+        "score": 67
+      },
+      {
+        "code": "GST 111",
+        "title": "Communication in English",
+        "units": 2,
+        "score": 72
+      },
+      {
+        "code": "COS 101",
+        "title": "Introduction to Computing Sciences",
+        "units": 3,
+        "score": 76
+      }
+    ]
+  },
+  {
+    "session": "2024/2025",
+    "semester": "Second",
+    "level": 100,
+    "publishedAt": "2025-09-02",
+    "courses": [
+      {
+        "code": "CSC 102",
+        "title": "Introduction to Problem Solving",
+        "units": 3,
+        "score": 74
+      },
+      {
+        "code": "MTH 102",
+        "title": "Elementary Mathematics II",
+        "units": 3,
+        "score": 61
+      },
+      {
+        "code": "PHY 102",
+        "title": "General Physics II",
+        "units": 3,
+        "score": 52
+      },
+      {
+        "code": "PHY 108",
+        "title": "General Physics Practical II",
+        "units": 1,
+        "score": 68
+      },
+      {
+        "code": "STA 112",
+        "title": "Probability I",
+        "units": 3,
+        "score": 63
+      },
+      {
+        "code": "GST 112",
+        "title": "Nigerian Peoples and Culture",
+        "units": 2,
+        "score": 70
+      },
+      {
+        "code": "COS 102",
+        "title": "Problem Solving",
+        "units": 3,
+        "score": 73
+      },
+      {
+        "code": "MTH 104",
+        "title": "Vectors and Geometry",
+        "units": 2,
+        "score": 49
+      }
+    ]
+  },
+  {
+    "session": "2025/2026",
+    "semester": "First",
+    "level": 200,
+    "publishedAt": "2026-03-20",
+    "courses": [
+      {
+        "code": "CSC 201",
+        "title": "Computer Programming I",
+        "units": 3,
+        "score": 78
+      },
+      {
+        "code": "CSC 203",
+        "title": "Discrete Structures",
+        "units": 3,
+        "score": 66
+      },
+      {
+        "code": "CSC 205",
+        "title": "Digital Logic Design",
+        "units": 3,
+        "score": 62
+      },
+      {
+        "code": "MTH 201",
+        "title": "Mathematical Methods I",
+        "units": 3,
+        "score": 57
+      },
+      {
+        "code": "IFT 211",
+        "title": "Digital Logic",
+        "units": 2,
+        "score": 70
+      },
+      {
+        "code": "GST 211",
+        "title": "Philosophy, Logic and Human Existence",
+        "units": 2,
+        "score": 68
+      },
+      {
+        "code": "ENT 211",
+        "title": "Entrepreneurship and Innovation",
+        "units": 2,
+        "score": 75
+      },
+      {
+        "code": "SEN 201",
+        "title": "Introduction to Software Engineering",
+        "units": 3,
+        "score": 72
+      }
+    ]
+  },
+  {
+    "session": "2025/2026",
+    "semester": "Second",
+    "level": 200,
+    "publishedAt": "2026-09-18",
+    "courses": [
+      {
+        "code": "CSC 202",
+        "title": "Computer Programming II",
+        "units": 3,
+        "score": 81
+      },
+      {
+        "code": "CSC 204",
+        "title": "Data Structures",
+        "units": 3,
+        "score": 69
+      },
+      {
+        "code": "CSC 206",
+        "title": "Introduction to Systems Analysis",
+        "units": 3,
+        "score": 65
+      },
+      {
+        "code": "MTH 202",
+        "title": "Elementary Differential Equations",
+        "units": 3,
+        "score": 54
+      },
+      {
+        "code": "STA 202",
+        "title": "Statistical Methods",
+        "units": 2,
+        "score": 63
+      },
+      {
+        "code": "CSC 208",
+        "title": "Operating Systems Fundamentals",
+        "units": 3,
+        "score": 71
+      },
+      {
+        "code": "GST 212",
+        "title": "Philosophy of Science",
+        "units": 2,
+        "score": 66
+      },
+      {
+        "code": "MTH 104",
+        "title": "Vectors and Geometry (carry-over)",
+        "units": 2,
+        "score": 56
+      }
+    ]
+  }
+]

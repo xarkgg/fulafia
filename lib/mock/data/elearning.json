@@ -1,0 +1,16 @@
+{
+  "platform": "FULafia LMS (Moodle)",
+  "platformUrl": "https://elearning.fulafia.edu.ng",
+  "registered": false,
+  "username": null,
+  "session": "2026/2027",
+  "semester": "First",
+  "feeName": "E-Learning Service",
+  "feeAmount": 5000,
+  "benefits": [
+    "Lecture notes, slides and recordings for every registered course",
+    "Online quizzes, assignments and continuous assessment",
+    "CBT practice for online examinations",
+    "Announcements and course forums with lecturers"
+  ]
+}

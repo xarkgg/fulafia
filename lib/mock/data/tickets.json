@@ -1,0 +1,117 @@
+[
+  {
+    "id": "TCK-24081",
+    "subject": "Hostel payment not reflecting after bank payment",
+    "category": "Payments",
+    "status": "in_progress",
+    "priority": "high",
+    "createdAt": "2026-10-19T12:10:00+01:00",
+    "updatedAt": "2026-10-21T09:32:00+01:00",
+    "messages": [
+      {
+        "id": "m1",
+        "author": "student",
+        "name": "Amina Yusuf",
+        "body": "Good afternoon. I paid my hostel accommodation fee (₦45,000) at the bank on 19 October with RRR 2911-3305-4471, but the portal still shows it as pending. Please help.",
+        "at": "2026-10-19T12:10:00+01:00"
+      },
+      {
+        "id": "m2",
+        "author": "staff",
+        "name": "Bursary Support · Grace O.",
+        "body": "Hello Amina, thank you for reaching out. We have escalated the RRR to Remita for confirmation. Bank branch payments can take up to 72 hours to settle. Kindly attach a copy of your teller if you have it.",
+        "at": "2026-10-20T10:04:00+01:00"
+      },
+      {
+        "id": "m3",
+        "author": "student",
+        "name": "Amina Yusuf",
+        "body": "Thank you. I've attached the teller. Please let me know once it's confirmed.",
+        "at": "2026-10-20T10:31:00+01:00",
+        "attachment": "teller-2911-3305-4471.jpg"
+      },
+      {
+        "id": "m4",
+        "author": "staff",
+        "name": "Bursary Support · Grace O.",
+        "body": "Received, thank you. Remita has acknowledged the request; we'll update you as soon as the settlement is confirmed.",
+        "at": "2026-10-21T09:32:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "TCK-23977",
+    "subject": "Unable to see CSC 313 in available courses",
+    "category": "Course registration",
+    "status": "resolved",
+    "priority": "normal",
+    "createdAt": "2026-10-14T08:45:00+01:00",
+    "updatedAt": "2026-10-15T11:20:00+01:00",
+    "messages": [
+      {
+        "id": "m1",
+        "author": "student",
+        "name": "Amina Yusuf",
+        "body": "CSC 313 (Web Application Development) is not showing in my available courses list.",
+        "at": "2026-10-14T08:45:00+01:00"
+      },
+      {
+        "id": "m2",
+        "author": "staff",
+        "name": "ICT Helpdesk · Daniel A.",
+        "body": "Hi Amina, the course allocation for 300 level electives has now been updated by the department. Please refresh your course registration page.",
+        "at": "2026-10-15T11:20:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "TCK-23510",
+    "subject": "Request to correct date of birth",
+    "category": "Bio data",
+    "status": "closed",
+    "priority": "normal",
+    "createdAt": "2026-08-03T14:00:00+01:00",
+    "updatedAt": "2026-08-11T16:45:00+01:00",
+    "messages": [
+      {
+        "id": "m1",
+        "author": "student",
+        "name": "Amina Yusuf",
+        "body": "My date of birth on the portal is wrong. How can I correct it?",
+        "at": "2026-08-03T14:00:00+01:00"
+      },
+      {
+        "id": "m2",
+        "author": "staff",
+        "name": "Academic Office · Ruth M.",
+        "body": "Date of birth corrections require a sworn affidavit and your birth certificate submitted to the Academic Office (Senate Building, Room 4). Once verified, the record is updated by the registry.",
+        "at": "2026-08-05T09:10:00+01:00"
+      },
+      {
+        "id": "m3",
+        "author": "staff",
+        "name": "Academic Office · Ruth M.",
+        "body": "Your documents have been verified and the record has been corrected. Closing this ticket.",
+        "at": "2026-08-11T16:45:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "TCK-24102",
+    "subject": "E-learning login details",
+    "category": "E-learning",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2026-10-25T18:20:00+01:00",
+    "updatedAt": "2026-10-25T18:20:00+01:00",
+    "messages": [
+      {
+        "id": "m1",
+        "author": "student",
+        "name": "Amina Yusuf",
+        "body": "Will my LMS login be the same as my portal login after I register for e-learning this semester?",
+        "at": "2026-10-25T18:20:00+01:00"
+      }
+    ]
+  }
+]

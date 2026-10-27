@@ -1,0 +1,42 @@
+{
+  "bio": {
+    "country": "Nigeria",
+    "state": "Nasarawa",
+    "lga": "Lafia",
+    "contactAddress": "Block C, Room 14, Female Hostel, FULafia Main Campus, Lafia, Nasarawa State",
+    "hometown": "Shabu",
+    "homeAddress": "No. 12 Jos Road, Shabu, Lafia, Nasarawa State",
+    "placeOfBirth": "Lafia",
+    "dateOfBirth": "2006-04-09",
+    "tribe": "Hausa",
+    "gender": "Female",
+    "religion": "Islam",
+    "maritalStatus": "Single"
+  },
+  "health": {
+    "bloodGroup": "O+",
+    "genotype": "AA",
+    "height": "1.65 m",
+    "weight": "58 kg",
+    "allergies": "None known",
+    "disabilities": "None",
+    "medicalConditions": "None",
+    "emergencyClinic": "FULafia University Health Centre"
+  },
+  "nextOfKin": {
+    "fullName": "Ibrahim Yusuf",
+    "relationship": "Father",
+    "phone": "+234 805 555 0167",
+    "email": "ibrahim.yusuf.demo@example.com",
+    "occupation": "Civil servant",
+    "address": "No. 12 Jos Road, Shabu, Lafia, Nasarawa State"
+  },
+  "sponsorship": {
+    "sponsorType": "Student loan (NELFUND)",
+    "sponsorName": "Nigerian Education Loan Fund",
+    "phone": "+234 9 555 0100",
+    "email": "support.demo@example.com",
+    "address": "Plot 1234, Central Business District, Abuja",
+    "relationship": "Loan provider"
+  }
+}

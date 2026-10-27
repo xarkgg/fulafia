@@ -1,0 +1,194 @@
+{
+  "minUnits": 15,
+  "maxUnits": 24,
+  "courses": [
+    {
+      "code": "CSC 301",
+      "title": "Structured Programming",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. B. Adamu"
+    },
+    {
+      "code": "CSC 303",
+      "title": "Data Communication and Networks",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Mr. S. Okon"
+    },
+    {
+      "code": "CSC 305",
+      "title": "Operating Systems I",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. R. Ogah"
+    },
+    {
+      "code": "CSC 307",
+      "title": "Database Design and Management",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. F. Musa"
+    },
+    {
+      "code": "CSC 309",
+      "title": "Software Engineering",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Prof. A. Danjuma"
+    },
+    {
+      "code": "CSC 311",
+      "title": "Computer Architecture",
+      "units": 3,
+      "type": "core",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Mrs. L. Agbo"
+    },
+    {
+      "code": "CSC 313",
+      "title": "Web Application Development",
+      "units": 2,
+      "type": "elective",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Mr. T. Ibe"
+    },
+    {
+      "code": "CSC 315",
+      "title": "Introduction to Artificial Intelligence",
+      "units": 2,
+      "type": "elective",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. K. Ajayi"
+    },
+    {
+      "code": "MTH 301",
+      "title": "Numerical Analysis I",
+      "units": 3,
+      "type": "elective",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. U. Bello"
+    },
+    {
+      "code": "STA 311",
+      "title": "Probability and Statistical Inference",
+      "units": 2,
+      "type": "elective",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Mrs. E. Abah"
+    },
+    {
+      "code": "ENT 311",
+      "title": "Venture Creation",
+      "units": 2,
+      "type": "gst",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Mr. J. Ochai"
+    },
+    {
+      "code": "GST 311",
+      "title": "Peace and Conflict Resolution",
+      "units": 2,
+      "type": "gst",
+      "semester": "First",
+      "level": 300,
+      "lecturer": "Dr. M. Ishaku"
+    },
+    {
+      "code": "CSC 302",
+      "title": "Compiler Construction",
+      "units": 3,
+      "type": "core",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 304",
+      "title": "Operating Systems II",
+      "units": 3,
+      "type": "core",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 306",
+      "title": "Algorithms and Complexity",
+      "units": 3,
+      "type": "core",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 308",
+      "title": "Human-Computer Interaction",
+      "units": 2,
+      "type": "core",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 310",
+      "title": "Computer Graphics",
+      "units": 2,
+      "type": "elective",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 312",
+      "title": "Mobile Application Development",
+      "units": 2,
+      "type": "elective",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    },
+    {
+      "code": "CSC 399",
+      "title": "SIWES I (Industrial Training)",
+      "units": 6,
+      "type": "core",
+      "semester": "Second",
+      "level": 300,
+      "lecturer": null
+    }
+  ],
+  "registrations": [
+    {
+      "session": "2026/2027",
+      "semester": "First",
+      "status": "draft",
+      "registered": [
+        "CSC 301",
+        "CSC 303",
+        "CSC 305",
+        "CSC 307",
+        "CSC 309",
+        "CSC 311",
+        "GST 311"
+      ],
+      "submittedAt": null
+    }
+  ]
+}

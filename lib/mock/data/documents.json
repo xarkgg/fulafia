@@ -1,0 +1,96 @@
+[
+  {
+    "id": "doc_admission",
+    "kind": "admission-letter",
+    "title": "Admission Letter",
+    "description": "Provisional offer of admission into B.Sc. Computer Science.",
+    "session": "2024/2025",
+    "issuedAt": "2024-10-07",
+    "status": "available",
+    "group": "Admission"
+  },
+  {
+    "id": "doc_application",
+    "kind": "application-summary",
+    "title": "Application Summary",
+    "description": "Your submitted UTME application and O'Level details.",
+    "session": "2024/2025",
+    "issuedAt": "2024-09-12",
+    "status": "available",
+    "group": "Admission"
+  },
+  {
+    "id": "doc_screening",
+    "kind": "screening-invoice",
+    "title": "Screening Fee Invoice",
+    "description": "Post-UTME screening fee receipt (₦2,000.00).",
+    "session": "2024/2025",
+    "issuedAt": "2024-08-28",
+    "status": "available",
+    "group": "Admission"
+  },
+  {
+    "id": "doc_courseform_2627_1",
+    "kind": "course-form",
+    "title": "Course Form — 2026/2027 First Semester",
+    "description": "Available after you submit course registration.",
+    "session": "2026/2027",
+    "issuedAt": null,
+    "status": "locked",
+    "lockedReason": "Submit your course registration first.",
+    "group": "Academic"
+  },
+  {
+    "id": "doc_courseform_2526_2",
+    "kind": "course-form",
+    "title": "Course Form — 2025/2026 Second Semester",
+    "description": "Approved course registration.",
+    "session": "2025/2026",
+    "issuedAt": "2026-05-14",
+    "status": "available",
+    "group": "Academic"
+  },
+  {
+    "id": "doc_biodata",
+    "kind": "bio-data",
+    "title": "Bio Data Form",
+    "description": "Personal, health, next of kin and sponsorship records.",
+    "session": null,
+    "issuedAt": "2026-10-01",
+    "status": "available",
+    "group": "Academic"
+  },
+  {
+    "id": "doc_receipt_2526_2",
+    "kind": "fee-receipt",
+    "title": "Receipt — School fee 2025/2026 Second",
+    "description": "Paid ₦58,000.00 via Wallet.",
+    "session": "2025/2026",
+    "issuedAt": "2026-05-11",
+    "status": "available",
+    "group": "Payments",
+    "invoiceId": "inv_1004"
+  },
+  {
+    "id": "doc_receipt_2526_1",
+    "kind": "fee-receipt",
+    "title": "Receipt — School fee 2025/2026 First",
+    "description": "Paid ₦58,000.00 via Remita.",
+    "session": "2025/2026",
+    "issuedAt": "2025-11-20",
+    "status": "available",
+    "group": "Payments",
+    "invoiceId": "inv_1003"
+  },
+  {
+    "id": "doc_receipt_hostel_2526",
+    "kind": "fee-receipt",
+    "title": "Receipt — Hostel accommodation 2025/2026",
+    "description": "Paid ₦45,000.00 via Remita.",
+    "session": "2025/2026",
+    "issuedAt": "2025-10-28",
+    "status": "available",
+    "group": "Payments",
+    "invoiceId": "inv_1005"
+  }
+]

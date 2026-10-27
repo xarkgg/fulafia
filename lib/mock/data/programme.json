@@ -1,0 +1,32 @@
+{
+  "programme": "B.Sc. Computer Science",
+  "degree": "Bachelor of Science (B.Sc.)",
+  "faculty": "Faculty of Computing",
+  "department": "Computer Science",
+  "level": 300,
+  "duration": 4,
+  "admittedSession": "2024/2025",
+  "entryMode": "UTME",
+  "expectedGraduation": "2027/2028",
+  "studyMode": "Full-time",
+  "transfer": {
+    "open": true,
+    "window": "1 November – 15 December 2026",
+    "fee": 10000,
+    "requirements": [
+      "Must have completed at least one full academic session at FULafia.",
+      "Minimum CGPA of 2.50 at the time of application.",
+      "Must meet the O'Level (5 credits incl. English and Mathematics) and UTME subject requirements of the new programme.",
+      "No outstanding school fees for the current or previous sessions.",
+      "Written consent from the Head of Department of both the current and the proposed programme.",
+      "The proposed programme must have available capacity for the session."
+    ],
+    "notes": [
+      "Transfers are only considered into a programme at the same or a lower level.",
+      "Approved transfers take effect from the next academic session; you continue in your current programme until then.",
+      "Courses already passed that are common to both programmes may be credited on approval of the new department.",
+      "A transfer can be applied for only once during your course of study."
+    ],
+    "feeNotice": "A non-refundable programme transfer processing fee of ₦10,000.00 applies. Pay it under Fees → Standalone before submitting an application."
+  }
+}
